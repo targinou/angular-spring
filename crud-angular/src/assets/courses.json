@@ -1,0 +1,4 @@
+[
+  { "_id": "1", "name": "Nome do curso", "category":"back-end" },
+  { "_id": "2", "name": "Nome do curso 2", "category":"front-end" }
+]
