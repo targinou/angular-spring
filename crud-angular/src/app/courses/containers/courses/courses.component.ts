@@ -1,11 +1,11 @@
-import { ErrorDialogComponent } from './../../shared/components/error-dialog/error-dialog.component';
+import { ErrorDialogComponent } from '../../../shared/components/error-dialog/error-dialog.component';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { catchError, Observable, of } from 'rxjs';
 
 
-import { Course } from './../model/course';
-import { CoursesService } from './../services/courses.service';
+import { Course } from '../../model/course';
+import { CoursesService } from '../../services/courses.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
